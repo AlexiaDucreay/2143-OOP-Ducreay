@@ -27,7 +27,15 @@
 
 
 
-#### Method
-> This is your method definition.....
+#### Function
+> A function is a group of statements that together perform a task. 
+> Every C++ program has at least one function, which is main(), and all
+> the most trivial programs can define additional functions.
 
-#### ETC...
+#### Method
+> Methods are functions that belongs to the class.
+
+> There are two ways to define functions that belongs to a class:
+
+* Inside class definition
+* Outside class definition
