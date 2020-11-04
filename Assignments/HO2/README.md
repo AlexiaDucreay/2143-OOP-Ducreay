@@ -46,3 +46,10 @@
 > of your new class, but the user of your new class sees the interface you’ve defined rather 
 > than the interface from the original class. To do this, you follow the typical path of embedding
 > private objects of existing classes inside your new class.
+
+#### Iheritance
+Inheritance is the capability of a class to derive properties and characteristics from another class is
+called Inheritance. Inheritance is one of the most important feature of Object Oriented Programming.
+
+**Sub Class**: The class that inherits properties from another class is called Sub class or Derived Class.
+**Super Class**:The class whose properties are inherited by sub class is called Base Class or Super class.
