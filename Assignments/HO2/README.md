@@ -53,7 +53,24 @@
 
 **Sub Class**: The class that inherits properties from another class is called Sub class or Derived Class.
 
-**Super Class**:The class whose properties are inherited by sub class is called Base Class or Super class.
+**Super Class**: The class whose properties are inherited by sub class is called Base Class or Super class.
+
+#### Multiple Inheritance
+> Multiple Inheritance: Multiple Inheritance is a feature of C++ where a class can inherit from more than
+> one classes. i.e one sub class is inherited from more than one base classes.
+
+#### Overloading 
+> Creating two or more members that have the same name but are different in number or type of parameter 
+> is known as overloading.
+>
+>**Types of overloading**
+
+>**Function overloading**: is the process of having two or more functions with the same name, but different
+>parameters, is known as function overloading.
+>
+>**Operator overloading**: is a compile-time polymorphism in which the operator is overloaded to provide 
+>special meaning to the user-defined data type. Operator overloading is used to overload or redefine 
+>most of the operators available in C++. It is used to perform the operation on the user-defined data type.
 
 
 
