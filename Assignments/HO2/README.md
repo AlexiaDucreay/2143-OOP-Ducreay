@@ -39,3 +39,10 @@
 
 * Inside class definition
 * Outside class definition
+
+#### Composition
+> Composition is generally used when you want the features of an existing class inside
+> your new class, but not its interface. That is, you embed an object to implement features
+> of your new class, but the user of your new class sees the interface you’ve defined rather 
+> than the interface from the original class. To do this, you follow the typical path of embedding
+> private objects of existing classes inside your new class.
