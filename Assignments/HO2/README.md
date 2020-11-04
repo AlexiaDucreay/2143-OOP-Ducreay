@@ -9,6 +9,8 @@
 
 #### Class
 
+>A Class is a user-defined data type, which holds its own data members and member functions,
+>which can be accessed and used by creating an instance of that class. 
 > A C++ class is like a blueprint for an object.
 >For Example: Consider the Class of Cars. There may be many cars with different 
 >names and brand but all of them will share some common properties like all of 
