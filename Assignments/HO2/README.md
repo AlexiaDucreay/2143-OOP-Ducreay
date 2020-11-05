@@ -84,6 +84,16 @@
 >as friend. It is sometimes useful to allow a particular class to access private members of other class.
 >For example a LinkedList class may be allowed to access private members of Node.
 
+#### Abstraction
+>Data abstraction refers to providing only essential information about the data to the outside world,
+>hiding the background details or implementation.
+
+#### Class Variable
+>A class variable is any variable declared with the static modifier of which a single copy exists,
+>regardless of how many instances of the class exist.
+
+#### Instance Variable
+>Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
 
 
 
