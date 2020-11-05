@@ -108,6 +108,30 @@
 >additional information to the compiler to enforce constraints(conditions), optimise certain
 >pieces of code or do some specific code generation. 
 
+#### Properties
+>Properties are simply a convenient way of defining a getter and a setter for a given member variable.
+
+#### Public 
+>The public keyword specifies that those members are accessible from any function.
+
+#### Private
+>The private keyword specifies that those members are accessible only from member
+>functions and friends of the class. This applies to all members declared up to the
+>next access specifier or the end of the class.
+
+#### Protected
+>The protected keyword specifies access to class members in the member-list up to the
+>next access specifier (public or private) or the end of the class definition. 
+>Class members declared as protected can be used only by the following:
+>
+> * Member functions of the class that originally declared these members.
+>
+> * Friends of the class that originally declared these members.
+>
+> * Classes derived with public or protected access from the class that originally declared these members.
+>
+> * Direct privately derived classes that also have private access to protected members.
+
 
 
 
