@@ -97,6 +97,9 @@
 #### Instance Variable
 >Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
 
+#### Member Variable
+<A member variable is a variable (an object) that is part of a class.
+
 
 
 
