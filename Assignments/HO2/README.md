@@ -98,7 +98,15 @@
 >Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
 
 #### Member Variable
-<A member variable is a variable (an object) that is part of a class.
+>A member variable is a variable (an object) that is part of a class.
+
+#### Virtual
+>A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class.
+
+#### Attributes
+>Attributes are one of the key features of modern C++ which allows the programmer to specify
+>additional information to the compiler to enforce constraints(conditions), optimise certain
+>pieces of code or do some specific code generation. 
 
 
 
