@@ -72,6 +72,18 @@
 >special meaning to the user-defined data type. Operator overloading is used to overload or redefine 
 >most of the operators available in C++. It is used to perform the operation on the user-defined data type.
 
+#### Polymorphism
+>Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+#### Encapsulation
+>Encapsulation is an Object Oriented Programming concept that binds together the data and functions that 
+>manipulate the data, and that keeps both safe from outside interference and misuse. 
+
+#### Friend
+>A friend class can access private and protected members of other class in which it is declared
+>as friend. It is sometimes useful to allow a particular class to access private members of other class.
+>For example a LinkedList class may be allowed to access private members of Node.
+
 
 
 
