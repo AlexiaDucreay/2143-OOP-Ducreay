@@ -375,17 +375,27 @@ public:
 Hand::Hand(){
 
 }
+/*
+ _____  ____  _____ _______   ______ _______   __
+  / ____|/ __ \|  __ \__   __| |  ____|_   _\ \ / /
+ | (___ | |  | | |__) | | |    | |__    | |  \ V / 
+  \___ \| |  | |  _  /  | |    |  __|   | |   > <  
+  ____) | |__| | | \ \  | |    | |     _| |_ / . \ 
+ |_____/ \____/|_|  \_\ |_|    |_|    |_____/_/ \_\
+                                                 
+*/
+    
 
 // It would be better to use the built in 
 // vector "sort". But ... oh well.
 void Hand::Sort(){
-
+    
     // Index "i" 
     for(int i=0;i<Size();i++){
         // Index "j"
-        for(int j=i;j<Size()-1;j++){
+        for(int j=0;j<Size()-1;j++){
             //Comparing cards at position i and j 
-            if(Cards[i]->rank > Cards[j+1]->rank){
+            if(Cards[i]->rank > Cards[j]->rank){
                 cout<<"swapping"<<endl;
 
                 // standard swap 
