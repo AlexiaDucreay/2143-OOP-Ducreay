@@ -5,7 +5,7 @@ void Hand::Sort(){
     for(int i=0;i<Size();i++){
         // Index "j"
         for(int j=0;j<Size()-1;j++){
-            //Comparing cards at position i and j 
+            //Comparing cards at position i and j   |  fgh
             if(Cards[i]->rank > Cards[j]->rank){
                 cout<<"swapping"<<endl;
                 // standard swap 
